@@ -1,7 +1,7 @@
 # Book_Store-SQL-Analysis
 SQL-based analysis of a bookstore dataset using PostgreSQL, focusing on sales, customers, and inventory insights.
 
-# 📘 Bookstore SQL Analysis Project
+## 📘 Bookstore SQL Analysis Project
 
 ## 📖 Project Description
 This project involves analyzing a **Bookstore database** using **PostgreSQL** to extract meaningful business insights related to **books, customers, and orders**. The objective is to demonstrate strong SQL skills by solving both **basic and advanced analytical queries** on a relational dataset.
