@@ -100,7 +100,7 @@ All tables are connected using **primary and foreign key relationships**.
 ---
 
 ## 📁 Project Structure
-```text
+```
 bookstore-sql-analysis/
 ├── README.md           
 ├── schema.sql             
@@ -110,7 +110,7 @@ bookstore-sql-analysis/
    ├── customers.csv
    └── orders.csv
          
----
+```
 
 ## 🚀 How to Run the Project
 1. Create the database tables using `schema.sql`
