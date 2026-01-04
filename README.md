@@ -62,7 +62,7 @@ All tables are connected using **primary and foreign key relationships**.
 - Retrieve orders where total amount exceeds a threshold  
 - List all genres available in the bookstore  
 - Find the book with the lowest stock  
-- Calculate the total revenue generated from all orders  
+- Calculate the total revenue generated from all orders
 
 ---
 
@@ -75,7 +75,8 @@ All tables are connected using **primary and foreign key relationships**.
 - Retrieve the total quantity of books sold by each author  
 - List cities where customers who spent over a certain amount are located  
 - Find the customer who spent the most on orders  
-- Calculate remaining stock after fulfilling all orders  
+- Calculate remaining stock after fulfilling all orders
+- Find duplicate orders (same customer and book)
 
 ---
 
@@ -134,6 +135,9 @@ bookstore-sql-analysis/
 SQL & PostgreSQL Learner  
 
 ---
+
+🔒 Privacy
+Note: Email and mobile number are collected only for verification and engagement purposes. They are never shown on the public pledge wall or shared.
 
 ## 📌 Note
 This project is created for learning and portfolio purposes using publicly available data.
