@@ -28,13 +28,40 @@ This project involves analyzing a **Bookstore database** using **PostgreSQL** to
 The project consists of the following tables:
 
 ### 📚 Books
-- Book details such as title, author, genre, price, stock, and publication year
+
+| Column Name    | Data Type     | Description                     |
+| -------------- | ------------- | ------------------------------- |
+| book_id        | INT           | Unique identifier for each book |
+| title          | VARCHAR       | Title of the book               |
+| author         | VARCHAR       | Author name                     |
+| genre          | VARCHAR       | Genre/category of the book      |
+| price          | NUMERIC(10,2) | Price of the book               |
+| stock          | INT           | Number of copies available      |
+| published_year | INT           | Year the book was published     |
 
 ### 👥 Customers
-- Customer information including name, city, and country
+
+| Column Name   | Data Type     | Description                         |
+| ------------- | ------------- | ----------------------------------- |
+| customer_id   | INT           | Unique identifier for each customer |
+| customer_name | VARCHAR       | Full name of the customer           |
+| email         | VARCHAR       | mail id of customer                 |
+| phone         | NUMERIC(10,0) | phone number of customer            |
+| city          | VARCHAR       | City of residence                   |
+| country       | VARCHAR       | Country of residence                |
+
 
 ### 🧾 Orders
-- Order transactions including quantity, order date, and total amount
+
+| Column Name  | Data Type     | Description                           |
+| ------------ | ------------- | ------------------------------------- |
+| order_id     | INT           | Unique order identifier               |
+| customer_id  | INT           | References customer placing the order |
+| book_id      | INT           | References ordered book               |
+| order_date   | DATE          | Date of order                         |
+| quantity     | INT           | Number of books ordered               |
+| total_amount | NUMERIC(10,2) | Total cost of the order               |
+
 
 All tables are connected using **primary and foreign key relationships**.
 
