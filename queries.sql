@@ -45,9 +45,6 @@ WHERE stock IN (SELECT MIN(stock) FROM Books);
 SELECT SUM(total_amount) AS Revenue
 FROM Orders;
 
-
-------------------Advanced-----------------------------
-
 ----------- Total books sold per genre ---------
 SELECT b.genre,SUM(o.quantity) AS books_sold
 FROM Books b
