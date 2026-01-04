@@ -100,18 +100,16 @@ All tables are connected using **primary and foreign key relationships**.
 ---
 
 ## 📁 Project Structure
-
+```text
 bookstore-sql-analysis/
-│
-├── README.md # Project documentation
-├── schema.sql # Table creation scripts
-├── queries.sql # All SQL queries used for analysis
+├── README.md           
+├── schema.sql             
+├── queries.sql            
 ├── data/
-│ ├── books.csv
-│ ├── customers.csv
-│ └── orders.csv
-└── screenshots/ # (Optional) Query result screenshots
-
+   ├── books.csv
+   ├── customers.csv
+   └── orders.csv
+         
 ---
 
 ## 🚀 How to Run the Project
@@ -136,7 +134,7 @@ SQL & PostgreSQL Learner
 
 ---
 
-🔒 Privacy
+###🔒 Privacy
 Note: Email and mobile number are collected only for verification and engagement purposes. They are never shown on the public pledge wall or shared.
 
 ## 📌 Note
