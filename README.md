@@ -39,6 +39,8 @@ The project consists of the following tables:
 | stock          | INT           | Number of copies available      |
 | published_year | INT           | Year the book was published     |
 
+- Primary Key: `book_id`
+
 ### 👥 Customers
 
 | Column Name   | Data Type     | Description                         |
@@ -50,6 +52,7 @@ The project consists of the following tables:
 | city          | VARCHAR       | City of residence                   |
 | country       | VARCHAR       | Country of residence                |
 
+- Primary Key: `cust_id`
 
 ### 🧾 Orders
 
@@ -62,7 +65,11 @@ The project consists of the following tables:
 | quantity     | INT           | Number of books ordered               |
 | total_amount | NUMERIC(10,2) | Total cost of the order               |
 
+Primary Key: `order_id`
 
+Foreign Keys: `book_id` → `Books(book_id)`
+              `cust_id` → `Customers(cust_id)`
+ 
 All tables are connected using **primary and foreign key relationships**.
 
 ---
