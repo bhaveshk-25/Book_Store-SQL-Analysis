@@ -1,88 +1,139 @@
 # Book_Store-SQL-Analysis
 SQL-based analysis of a bookstore dataset using PostgreSQL, focusing on sales, customers, and inventory insights.
 
-## 📌 Project Overview
-This project focuses on analyzing a bookstore database using **PostgreSQL** to answer real-world business questions related to book sales, customers, and inventory management. The analysis demonstrates strong SQL fundamentals and analytical thinking by translating business requirements into efficient SQL queries.
+# 📘 Bookstore SQL Analysis Project
+
+## 📖 Project Description
+This project involves analyzing a **Bookstore database** using **PostgreSQL** to extract meaningful business insights related to **books, customers, and orders**. The objective is to demonstrate strong SQL skills by solving both **basic and advanced analytical queries** on a relational dataset.
 
 ---
 
-## 🗄️ Dataset
-- **Source:** Open-source bookstore dataset obtained from GitHub (CSV files)
-- **Nature of Data:** Sample / synthetic data used for learning and analysis
-- **Tables Used:**
-  - `Books` – book details such as title, author, genre, price, and stock
-  - `Customers` – customer information including name, city, and country
-  - `Orders` – order transactions including quantity, total amount, and order date
+## 🎯 Project Objectives
+- Analyze book sales and customer purchasing behavior
+- Perform genre-wise and author-wise sales analysis
+- Identify top customers and high-performing books
+- Practice real-world SQL concepts on relational data
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🗄️ Data Source
+- **Source:** Open-source bookstore dataset obtained from GitHub  
+- **Data Type:** Sample / synthetic data for learning purposes  
+- **Format:** CSV files  
+- **Import Tool:** pgAdmin (PostgreSQL)
+
+> The dataset is commonly used for SQL practice and simulates real-world bookstore operations.
+
+---
+
+## 🧱 Database Tables
+The project consists of the following tables:
+
+### 📚 Books
+- Book details such as title, author, genre, price, stock, and publication year
+
+### 👥 Customers
+- Customer information including name, city, and country
+
+### 🧾 Orders
+- Order transactions including quantity, order date, and total amount
+
+All tables are connected using **primary and foreign key relationships**.
+
+---
+
+## 🛠️ Tools & Technologies Used
 - **Database:** PostgreSQL  
 - **Client Tool:** pgAdmin  
 - **Language:** SQL  
 
 ---
 
-## 🧱 Database Schema
-- Implemented **relational schema** with:
-  - Primary Keys
-  - Foreign Key relationships between Books, Customers, and Orders
-- Data imported using **CSV files**
+## 🔍 Business Questions & Analysis
+
+### 🟢 Basic Queries
+- Retrieve all books in the *Fiction* genre  
+- Find books published after a specific year  
+- List customers from a particular country  
+- Show orders placed in a specific month  
+- Retrieve total stock of books available  
+- Find the most expensive book  
+- Identify customers who ordered more than one quantity  
+- Retrieve orders where total amount exceeds a threshold  
+- List all genres available in the bookstore  
+- Find the book with the lowest stock  
+- Calculate the total revenue generated from all orders  
 
 ---
 
-## 🔍 Business Questions Answered
-
-### 🔹 Basic Queries
-- Retrieve all books in the *Fiction* genre
-- Find books published after a specific year
-- List customers from a particular country
-- Show orders placed in a given month
-- Retrieve the total stock of books available
-- Find the most expensive book
-- Identify customers who ordered more than one quantity
-- Retrieve orders where total amount exceeds a threshold
-- List all available genres
-- Find the book with the lowest stock
-- Calculate total revenue generated from all orders
-
-### 🔹 Advanced Queries
-- Total number of books sold for each genre
-- Average price of books in the *Fantasy* genre
-- Customers who placed at least two orders
-- Most frequently ordered book
-- Top 3 most expensive books in the *Fantasy* genre
-- Total quantity of books sold by each author
-- Cities where customers who spent over a certain amount are located
-- Customer who spent the most on orders
-- Remaining stock after fulfilling all orders
+### 🔵 Advanced Queries
+- Retrieve the total number of books sold for each genre  
+- Find the average price of books in the *Fantasy* genre  
+- List customers who have placed at least two orders  
+- Identify the most frequently ordered book  
+- Show the top 3 most expensive books in the *Fantasy* genre  
+- Retrieve the total quantity of books sold by each author  
+- List cities where customers who spent over a certain amount are located  
+- Find the customer who spent the most on orders  
+- Calculate remaining stock after fulfilling all orders  
 
 ---
 
-## 🧠 SQL Concepts Used
+## 🧠 SQL Concepts Demonstrated
 - `SELECT`, `WHERE`, `ORDER BY`
 - Aggregate functions: `SUM`, `AVG`, `COUNT`
 - `GROUP BY` and `HAVING`
 - `INNER JOIN`
 - Subqueries
 - Window functions (`ROW_NUMBER`)
-- Data validation using aggregate reconciliation
+- Data validation and reconciliation of aggregates
 
 ---
 
-## ✅ Key Outcomes
-- Gained hands-on experience with **relational database analysis**
-- Demonstrated ability to answer **business-driven questions using SQL**
-- Ensured accuracy by validating totals across multiple queries
-- Built a clean, reproducible SQL project suitable for portfolio and interviews
+## 📊 Key Insights
+- Identified top-selling genres and authors
+- Determined high-value customers based on spending
+- Analyzed inventory levels and remaining stock
+- Ensured accuracy by cross-verifying total sales metrics
 
 ---
 
-## 📂 Repository Structure
+## 📁 Project Structure
 
+bookstore-sql-analysis/
+│
+├── README.md # Project documentation
+├── schema.sql # Table creation scripts
+├── queries.sql # All SQL queries used for analysis
+├── data/
+│ ├── books.csv
+│ ├── customers.csv
+│ └── orders.csv
+└── screenshots/ # (Optional) Query result screenshots
 
-Window functions (ROW_NUMBER)
+---
 
-✅ Outcome
+## 🚀 How to Run the Project
+1. Create the database tables using `schema.sql`
+2. Import CSV files from the `data/` folder into PostgreSQL
+3. Execute queries from `queries.sql` using pgAdmin
+4. Analyze outputs and insights
 
-The project demonstrates strong SQL fundamentals, analytical thinking, and the ability to translate business questions into efficient SQL queries.
+---
+
+## ✅ Learning Outcomes
+- Hands-on experience with relational databases
+- Ability to translate business questions into SQL queries
+- Strong understanding of joins, aggregations, and window functions
+- Experience working with CSV-based datasets in PostgreSQL
+
+---
+
+## 👤 Author
+**Bhavesh**  
+SQL & PostgreSQL Learner  
+
+---
+
+## 📌 Note
+This project is created for learning and portfolio purposes using publicly available data.
