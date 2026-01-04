@@ -128,13 +128,7 @@ bookstore-sql-analysis/
 
 ---
 
-## 👤 Author
-**Bhavesh**  
-SQL & PostgreSQL Learner  
-
----
-
-###🔒 Privacy
+##🔒 Privacy
 Note: Email and mobile number are collected only for verification and engagement purposes. They are never shown on the public pledge wall or shared.
 
 ## 📌 Note
