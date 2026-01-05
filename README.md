@@ -65,9 +65,9 @@ The project consists of the following tables:
 | quantity     | INT           | Number of books ordered               |
 | total_amount | NUMERIC(10,2) | Total cost of the order               |
 
-Primary Key: `order_id`
+-Primary Key: `order_id`
 
-Foreign Keys: `book_id` → `Books(book_id)`
+-Foreign Keys: `book_id` → `Books(book_id)`
               `cust_id` → `Customers(cust_id)`
  
 All tables are connected using **primary and foreign key relationships**.
