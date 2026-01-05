@@ -67,7 +67,7 @@ The project consists of the following tables:
 
 - Primary Key:  `order_id`
 - Foreign Keys: `book_id` → `Books(book_id)`
-                `cust_id` → `Customers(cust_id)`
+              `cust_id` → `Customers(cust_id)`
  
 All tables are connected using **primary and foreign key relationships**.
 
