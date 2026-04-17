@@ -164,5 +164,3 @@ Note: Email and mobile number are collected only for verification and engagement
 
 ## 📌 Note
 This project is created for learning and portfolio purposes using publicly available data.
-
-
